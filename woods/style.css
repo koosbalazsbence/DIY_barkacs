@@ -18,7 +18,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: url('images/background.jpg') center/cover no-repeat;
+    background: url('../images/background.jpg') center/cover no-repeat;
 }
 
 /* // Important!! */
@@ -103,7 +103,17 @@ body{
     background-color: rgba(255, 255, 255, .80);
     max-width: 95rem;
     height: calc(100vh - 8.75rem);
-    padding-bottom: 55rem;
+    padding-bottom: 57rem;
+}
+@media screen and (max-width: 1145px){
+    .container-fluid{
+        padding-bottom: 85rem;
+    }
+}
+@media screen and (max-width: 785px){
+    .container-fluid{
+        padding-bottom: 135rem;
+    }
 }
 
 /* //Container */
@@ -113,67 +123,29 @@ h1{
     font-family: "Noto Serif", serif;
     padding: 1rem;
 }
-h2{
-    font-family: 'Times New Roman', Times, serif;
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.carousel-inner{
-    overflow: hidden;
+p img{
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
 }
-.carousel-item{
-    position: relative;
-    width: 100%;
-    height: 100%;
+.list{
+    padding: 1rem;
 }
-.carousel-item img{
-    width: 50% !important;
+.list button {
+    display: block;
     margin: 0 auto;
-    max-height: 25rem;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
-}
-.background-overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    filter: blur(5px);
-    background: url('images/carouselThird.jpg') center/cover;
-    z-index: 0;
-}
-@media screen and (max-width: 785px){
-    .background-overlay{
-        visibility: hidden;
-    }
-    .carousel-item img{
-        width: 100% !important;
-        max-height: 20rem;
-    }
-}
-.carousel-button{
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    text-decoration: none;
-    font-size: 1.3rem;
-}
-@media screen and (max-width: 1024px) {
-    .carousel-button {
-        visibility: hidden;
-    }
+    font-family: "Noto Sans", sans-serif;
 }
 
 /* Footer  */
 
 span{
     font-weight: bold;
-}
-.footer{
-    margin: 0;
-    padding: 0;
 }
 footer{
     display: flex;

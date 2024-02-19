@@ -103,7 +103,23 @@ body{
     background-color: rgba(255, 255, 255, .80);
     max-width: 95rem;
     height: calc(100vh - 8.75rem);
-    padding-bottom: 55rem;
+    padding-bottom: 75rem;
+}
+@media screen and (max-width: 785px) {
+    .container-fluid{
+        padding-bottom: 105rem;
+    }    
+}
+@media screen and (max-width: 576px) {
+    .container-fluid{
+        padding-bottom: 140rem;
+    }    
+}
+
+@media screen and (max-width: 576px) {
+    .container-fluid{
+        padding-bottom: 140rem;
+    }    
 }
 
 /* //Container */

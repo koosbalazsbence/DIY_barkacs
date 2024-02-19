@@ -103,17 +103,7 @@ body{
     background-color: rgba(255, 255, 255, .80);
     max-width: 95rem;
     height: calc(100vh - 8.75rem);
-    padding-bottom: 57rem;
-}
-@media screen and (max-width: 1145px){
-    .container-fluid{
-        padding-bottom: 85rem;
-    }
-}
-@media screen and (max-width: 785px){
-    .container-fluid{
-        padding-bottom: 135rem;
-    }
+    padding-bottom: 55rem;
 }
 
 /* //Container */
@@ -123,38 +113,28 @@ h1{
     font-family: "Noto Serif", serif;
     padding: 1rem;
 }
-.content{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-p img{
+.container-fluid img{
     border:5px solid rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
     border-radius: 50%;
     width: 20rem;
     height: 20rem;
     outline: 1px solid rgb(220, 220, 220);
+    float: right;
 }
-.list{
-    padding: 1rem;
-}
-.list button {
-    display: block;
-    margin: 0 auto;
-    font-family: "Noto Sans", sans-serif;
-}
-a{
-    color: white;
-}
-a:hover, a:focus{
-    text-decoration: none;
-    color: white;
+p{
+    font-size: 1.5rem;
 }
 
 /* Footer  */
 
 span{
     font-weight: bold;
+}
+.footer{
+    margin: 0;
+    padding: 0;
 }
 footer{
     display: flex;

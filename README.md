@@ -15,7 +15,7 @@ Fedezze fel széles festékválasztékunkat, hogy megújíthassa otthonát vagy 
 
 Válasszon minőségi faanyagokat projektjeihez. Kínálatunkban megtalálhatók a legkülönfélébb fajták és méretek, hogy a tervezés könnyű és élvezetes legyen.
 
-### Szerszámkatalógus 🛠
+### Szerszámkatalógus 🪛
 
 Böngésszen szerszámkatalógusunkban, ahol minden megtalálható, ami szükséges lehet egy sikeres barkácsprojekthez. Legyen szó kéziszerszámokról vagy gépekkel való munkáról, nálunk mindent megtalál.
 

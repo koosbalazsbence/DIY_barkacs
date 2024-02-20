@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Namdhinggo&family=Noto+Sans:ital@0;1&family=Noto+Serif:ital@0;1&display=swap');
 
+/* Változók */
+
 :root{
     --height100vh: 100vh;
     --navfooterColor: hsl(226, 83%, 30%);
@@ -12,6 +14,8 @@
     --heightPercent: 100%;
     --widthPercent: 100%;
 }
+
+/* // Változók */
 
 * {
     scrollbar-width: thin;

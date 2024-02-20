@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Namdhinggo&family=Noto+Sans:ital@0;1&family=Noto+Serif:ital@0;1&display=swap');
 
+/* Változók */
+
+:root{
+    --height100vh: 100vh;
+    --navfooterColor: hsl(226, 83%, 30%);
+    --container-fluidColor: rgba(255, 255, 255, .80);
+    --greyBackground: rgba(167, 167, 167, 0.7);
+    --colorWhite: white;
+    --padding: 1rem;
+    --fontSize: 1rem;
+    --absolutePosition: absolute;
+    --heightPercent: 100%;
+    --widthPercent: 100%;
+}
+
+/* // Változók */
 
 * {
     scrollbar-width: thin;
@@ -26,12 +42,12 @@
     box-sizing: border-box;
 }
 html{
-    height: 100vh;
-    height: 100%;
+    height: var(--height100vh);
+    height: var(--heightPercent)
 }
 body{
-    min-height: 100%;
-    height: 100vh;
+    min-height: var(--heightPercent);
+    height: var(--height100vh);
     display: flex;
     flex-direction: column;
     background: url('../images/background.jpg') center/cover no-repeat;
@@ -63,9 +79,9 @@ body{
 }
 .toggler-icon {
     display: block;
-    position: absolute;
+    position: var(--absolutePosition);
     height: 3px;
-    width: 100%;
+    width: var(--widthPercent);
     background: grey;
     border-radius: 1px;
     opacity: 1;
@@ -77,18 +93,18 @@ body{
     margin-top: 0px;
 }
 .navbar-toggler.collapsed .top-bar {
-    position: absolute;
+    position: var(--absolutePosition);
     top: 0px;
     transform: rotate(0deg);
 }
 .navbar-toggler.collapsed .middle-bar {
     opacity: 1;
-    position: absolute;
+    position: var(--absolutePosition);
     top: 10px;
     filter: alpha(opacity=100);
 }
 .navbar-toggler.collapsed .bottom-bar {
-    position: absolute;
+    position: var(--absolutePosition);
     top: 20px;
     transform: rotate(0deg);
 }
@@ -106,7 +122,7 @@ body{
     transform: rotate(-135deg);
 }
 .navbar{
-    background-color: hsl(226, 83%, 30%);
+    background-color: var(--navfooterColor);
 }
 .navbar-brand img{
     height: 3.125rem;
@@ -117,7 +133,7 @@ body{
 /* Container */
 
 .container-fluid {
-    background-color: rgba(255, 255, 255, .80);
+    background-color: var(--container-fluidColor);
     max-width: 95rem;
     height: calc(100vh - 8.75rem);
     padding-bottom: 45rem !important;
@@ -129,7 +145,7 @@ body{
 h1{
     text-align: center;
     font-family: "Noto Serif", serif;
-    padding: 1rem;
+    padding: var(--padding);
 }
 h2{
     font-family: 'Times New Roman', Times, serif;
@@ -137,7 +153,7 @@ h2{
 .content img{
     width: 20rem;
     height: 20rem;
-    padding: 1rem;
+    padding: var(--padding);
     margin-left: 7rem;
 }
 .content{
@@ -154,7 +170,7 @@ h2{
     padding: 0;
 }
 .blue-drill{
-    background-color: rgba(167, 167, 167, 0.7);
+    background-color: var(--greyBackground)
 }
 .container{
     margin: 1rem;
@@ -174,10 +190,10 @@ footer{
     justify-content: space-around;
     align-self: center;
     background-color: hsl(226, 83%, 30%);
-    color: white;
+    color: var(--colorWhite);
     font-family: "Noto Sans", sans-serif;
     margin-top: auto;
-    padding: 1rem;
+    padding: var(--padding);
     padding-top: 2rem;
 }
 footer ul{
@@ -195,9 +211,8 @@ footer ul{
     footer{
         display: flex;
         justify-content: flex-start;
-        background-color: hsl(226, 83%, 30%);
-        color: white;
-        padding: 1rem;
+        background-color: var(--navfooterColor);
+        padding: var(--padding);
         padding-top: 2rem;
         font-size: 1.2rem;
         margin-top: auto;

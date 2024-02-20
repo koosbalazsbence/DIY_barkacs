@@ -7,7 +7,7 @@
     --height100vh: 100vh;
     --navfooterColor: hsl(226, 83%, 30%);
     --container-fluidColor: rgba(255, 255, 255, .80);
-    --colorWhtite: white;
+    --colorWhite: white;
     --padding: 1rem;
     --fontSize: 1rem;
     --absolutePosition: absolute;
@@ -174,7 +174,7 @@ h1{
 .color-palette{
     padding: 1rem;
     border-radius: 50%;
-    border: 5px solid var(--colorWhtite);
+    border: 5px solid var(--colorWhite);
     outline: 2px solid rgb(220, 220, 220);
     filter: drop-shadow(5px 5px 5px grey);
 }
@@ -207,7 +207,7 @@ footer{
     justify-content: space-around;
     align-self: center;
     background-color: var(--navfooterColor);
-    color: var(--colorWhtite);
+    color: var(--colorWhite);
     font-family: "Noto Sans", sans-serif;
     margin-top: auto;
     padding: var(--padding);

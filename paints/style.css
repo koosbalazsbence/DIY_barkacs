@@ -7,7 +7,7 @@
     --height100vh: 100vh;
     --navfooterColor: hsl(226, 83%, 30%);
     --container-fluidColor: rgba(255, 255, 255, .80);
-    --colorWhtite: white;
+    --colorWhite: white;
     --padding: 1rem;
     --fontSize: 1rem;
     --absolutePosition: absolute;
@@ -169,7 +169,7 @@ h2{
     border-radius: 50%;
     margin: 1rem;
     left: 60%;
-    border: 5px solid var(--colorWhtite);
+    border: 5px solid var(--colorWhite);
     outline: 2px solid rgb(220, 220, 220);
 }
 .pink{
@@ -195,7 +195,7 @@ footer{
     justify-content: space-around;
     align-self: center;
     background-color: var(--navfooterColor);
-    color: var(--colorWhtite);
+    color: var(--colorWhite);
     font-family: "Noto Sans", sans-serif;
     margin-top: auto;
     padding: var(--padding);
@@ -217,7 +217,7 @@ footer ul{
         display: flex;
         justify-content: flex-start;
         background-color: var(--navfooterColor);
-        color: var(--colorWhtite);
+        color: var(--colorWhite);
         padding: var(--padding);
         padding-top: 2rem;
         font-size: 1.2rem;

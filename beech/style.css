@@ -138,26 +138,36 @@ body{
     height: calc(100vh - 8.75rem);
     padding-bottom: 75rem;
 }
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 1090px){
     .container-fluid{
-        padding-bottom: 105rem;
-    }    
-}
-@media screen and (max-width: 576px) {
-    .container-fluid{
-        padding-bottom: 140rem;
-    }    
-}
-
-@media screen and (max-width: 576px) {
-    .container-fluid{
-        padding-bottom: 100rem;
-    }    
-    p{
-        font-size: 1rem !important;
+        padding-bottom: 80rem !important;
     }
 }
-
+@media screen and (max-width: 865px){
+    .container-fluid{
+        padding-bottom: 90rem !important;
+    }
+}
+@media screen and (max-width: 730px) {
+    .container-fluid{
+        padding-bottom: 100rem !important;
+    }
+}
+@media screen and (max-width: 630px) {
+    .container-fluid{
+        padding-bottom: 120rem !important;
+    }
+}
+@media screen and (max-width: 460px) {
+    .container-fluid{
+        padding-bottom: 130rem !important;
+    }
+}
+@media screen and (max-width: 410px) {
+    .container-fluid{
+        padding-bottom: 150rem !important;
+    }
+}
 /* //Container */
 
 h1{

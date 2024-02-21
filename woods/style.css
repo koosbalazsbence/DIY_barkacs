@@ -138,14 +138,14 @@ body{
     height: calc(100vh - 8.75rem);
     padding-bottom: 57rem !important;
 }
-@media screen and (max-width: 1145px){
+@media screen and (max-width: 1085px){
     .container-fluid{
-        padding-bottom: 85rem;
+        padding-bottom: 85rem !important;
     }
 }
-@media screen and (max-width: 785px){
+@media screen and (max-width: 733px){
     .container-fluid{
-        padding-bottom: 135rem;
+        padding-bottom: 135rem !important;
     }
 }
 

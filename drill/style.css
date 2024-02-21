@@ -37,12 +37,8 @@
 /* Important!! */
 *{
     user-select: none;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 html{
-    height: var(--height100vh);
     height: var(--heightPercent)
 }
 body{
@@ -139,7 +135,11 @@ body{
     padding-bottom: 45rem !important;
     padding: 0;
 }
-
+@media screen and (max-width: 935px){
+    .container-fluid {
+        padding-bottom: 85rem !important;
+    }
+}
 /* //Container */
 
 h1{
@@ -154,11 +154,21 @@ h2{
     width: 20rem;
     height: 20rem;
     padding: var(--padding);
-    margin-left: 7rem;
+    margin-left: 7.5rem;
 }
 .content{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     flex-direction: column;
+}
+@media screen and (max-width: 935px) {
+    .content {
+        flex-direction: row;
+    }
+    .green-drill, .blue-drill{
+        flex-direction: column;
+    }
 }
 .content ul{
     margin-right: 7rem;

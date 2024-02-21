@@ -37,7 +37,6 @@
 /* Important!! */
 *{
     user-select: none;
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -139,12 +138,27 @@ body{
     padding-bottom: 55rem !important;
     padding: 0;
 }
-@media screen and (max-width: 1145px){
+@media screen and (max-width: 991px){
     .container-fluid{
-        padding-bottom: 85rem !important;
+        padding-bottom: 65rem !important;
     }
 }
-@media screen and (max-width: 785px){
+@media screen and (max-width: 767px){
+    .container-fluid{
+        padding-bottom: 90rem !important;
+    }
+}
+@media screen and (max-width: 576px){
+    .container-fluid{
+        padding-bottom: 105rem !important;
+    }
+}
+@media screen and (max-width: 525px){
+    .container-fluid{
+        padding-bottom: 125rem !important;
+    }
+}
+@media screen and (max-width: 425px){
     .container-fluid{
         padding-bottom: 135rem !important;
     }
@@ -157,15 +171,9 @@ h1{
     padding: var(--padding);
 }
 #faceMan, #faceWoman{
-    padding: var(--padding);
-}
-@media screen and (max-width: 576px){
-    #faceMan, #faceWoman{
-        margin: 4rem;
-        height: 20rem;
-        max-width: 20rem;
-        padding: 0;
-    }
+    margin-inline: 3.5rem;
+    margin-block: 1rem;
+    padding: 0;
 }
 #faceMan{
     float: left;

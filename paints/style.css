@@ -173,14 +173,19 @@ h2{
 }
 .color-palette{
     position: absolute;
-    z-index: 1;
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
     margin: 1rem;
     left: 60%;
+    overflow: auto;
     border: 5px solid var(--colorWhite);
     outline: 2px solid rgb(220, 220, 220);
+}
+@media screen and (max-width: 1780px){
+    /* .color-palette{
+        left: 50%;
+    } */
 }
 .pink{
     background-color: pink;

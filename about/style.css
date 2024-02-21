@@ -141,12 +141,12 @@ body{
 }
 @media screen and (max-width: 1145px){
     .container-fluid{
-        padding-bottom: 85rem;
+        padding-bottom: 85rem !important;
     }
 }
 @media screen and (max-width: 785px){
     .container-fluid{
-        padding-bottom: 135rem;
+        padding-bottom: 135rem !important;
     }
 }
 
